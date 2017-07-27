@@ -22,6 +22,9 @@
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
     }
 
+	//
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=General"]];
+
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
