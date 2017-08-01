@@ -1,5 +1,5 @@
 {
-  "name": "HelloWorld",
+  "name": "cordova-plugin-helloworld",
   "version": "1.0.0",
   "description": "hello world test",
   "cordova": {
@@ -18,7 +18,7 @@
     "cordova-android",
     "cordova-ios"
   ],
-  "author": "caobaohe",
+  "author": "cbhnpm",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/caobaohe/HelloWorld/issues"
